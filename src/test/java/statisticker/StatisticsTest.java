@@ -1,4 +1,4 @@
-package statistickertest;
+package statisticker;
 
 import static org.junit.Assert.*;
 
