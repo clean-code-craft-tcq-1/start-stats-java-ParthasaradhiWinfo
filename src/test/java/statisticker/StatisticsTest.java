@@ -40,8 +40,9 @@ public class StatisticsTest {
 		EmailAlertService emailAlerter = new EmailAlertService();
 		LEDAlertService ledAlerter = new LEDAlertService();
 		AlertService alerters[] = { emailAlerter, ledAlerter };
+		Statistics s = new Statistics();
 		float maxThreshold = 10.2f;
-		StatsChecker checker = new StatsChecker(maxThreshold, alerters);
+		StatsChecker checker = new StatsChecker(maxThreshold, alerters, s);
 
 		Float[] numbers = { 11.5f, 6.9f, 7.5f, 6.6f };
 		List<Float> numberList = Arrays.asList(numbers);
