@@ -7,6 +7,7 @@ import alertservice.AlertService;
 
 
 public class StatsChecker {
+	
   private float maxThreshold;
   private AlertService[] alerters;
   public StatsChecker(float maxThreshold, AlertService[] alerters) {
