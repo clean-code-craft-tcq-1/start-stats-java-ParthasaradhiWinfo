@@ -11,7 +11,8 @@ import org.junit.Test;
 import alertservice.AlertService;
 import alertservice.EmailAlertService;
 import alertservice.LEDAlertService;
-
+import statisticker.Statistics;
+import statisticker.StatsChecker;
 public class StatisticsTest {
 	@Test
 	public void reportsAverageMinMaxx() {
